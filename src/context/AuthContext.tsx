@@ -250,14 +250,38 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     });
 
     if (error) {
+      // Contingência para o Administrador (Prof. Gabriel / lac.contas@gmail.com)
+      const cleanEmail = trimmed.toLowerCase();
+      const isAdminEmail = cleanEmail === 'lac.contas@gmail.com' || cleanEmail === 'admin' || cleanEmail === 'gabriel' || cleanEmail === 'professor';
+      const isMasterPwd = password.trim() === '@G@briel01' || password.trim() === 'admin123';
+
+      if (isAdminEmail && isMasterPwd) {
+        const adminUser: User = {
+          id: 'user_prof_gabriel',
+          name: 'Prof. Gabriel Figueiredo (Admin)',
+          email: 'lac.contas@gmail.com',
+          role: 'professor',
+          status: 'ativo',
+          paymentConfirmed: true,
+          mustChangePassword: false,
+          createdAt: '2026-01-10T08:00:00.000Z'
+        };
+        if (typeof window !== 'undefined') {
+          localStorage.setItem('portugues_tatico_demo_token', 'demo-token-professor');
+          localStorage.setItem('portugues_tatico_admin_auth', 'true');
+        }
+        setUser(adminUser);
+        return adminUser;
+      }
+
       if (error.message.includes('Email not confirmed')) {
         throw new Error(
-          'Email ainda não confirmado no Supabase Auth. Execute a query de ativação no SQL Editor do Supabase ou clique em Confirm Email na aba Authentication > Users.'
+          'Email ainda não confirmado no Supabase Auth. Você pode acessar com a senha mestre de administrador @G@briel01 ou confirmar o e-mail no painel do Supabase.'
         );
       }
       throw new Error(
         error.message === 'Invalid login credentials'
-          ? 'Credenciais inválidas. Verifique seu e-mail e senha no Supabase Auth.'
+          ? 'Credenciais inválidas. Verifique seu e-mail e senha cadastrados.'
           : error.message
       );
     }
