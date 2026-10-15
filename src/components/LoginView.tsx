@@ -282,8 +282,8 @@ export const LoginView: React.FC = () => {
       <div className="mt-6 sm:mx-auto sm:w-full sm:max-w-lg relative z-10">
         <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 shadow-sm transition-colors">
           
-          {/* Banner de Demonstração & Configuração Supabase */}
-          {!isConfigured ? (
+          {/* Banner de Demonstração (apenas se banco não estiver configurado) */}
+          {!isConfigured && (
             <div className="mb-6 p-4 rounded-xl bg-gradient-to-br from-amber-500/10 via-amber-500/5 to-slate-100/60 dark:from-amber-950/30 dark:via-slate-900 dark:to-slate-900 border border-amber-500/30 text-left space-y-3">
               <div className="flex items-start gap-2.5">
                 <div className="p-1.5 rounded-lg bg-amber-500/20 text-amber-700 dark:text-amber-400 shrink-0 mt-0.5">
@@ -333,20 +333,6 @@ export const LoginView: React.FC = () => {
                   <span>Conectar meu Supabase</span>
                 </button>
               </div>
-            </div>
-          ) : (
-            <div className="mb-4 p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-between text-xs">
-              <span className="inline-flex items-center gap-1.5 font-medium text-emerald-800 dark:text-emerald-300">
-                <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                Supabase Auth & Banco Oficial Conectados
-              </span>
-              <button
-                type="button"
-                onClick={() => setShowConfigModal(true)}
-                className="text-[11px] text-slate-500 dark:text-slate-400 hover:text-slate-700 underline cursor-pointer"
-              >
-                Configurações
-              </button>
             </div>
           )}
 
