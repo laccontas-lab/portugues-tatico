@@ -391,7 +391,7 @@ export const LoginView: React.FC = () => {
                   Cadastro Realizado com Sucesso!
                 </h3>
                 <p className="text-xs text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed">
-                  Para garantir o acompanhamento pedagógico rigoroso, o acesso aos simulados e ao envio de redações com correção individual é liberado após a <strong className="text-amber-700 dark:text-amber-400">aprovação do cadastro pelo Professor Gabriel</strong>.
+                  O acesso será liberado após aprovação do cadastro pelo Professor Gabriel.
                 </p>
               </div>
 
@@ -424,8 +424,15 @@ export const LoginView: React.FC = () => {
                     Contato Direto com o Professor Gabriel:
                   </p>
                   <p className="text-slate-600 dark:text-slate-300 leading-snug">
-                    Dúvidas sobre o cadastro e liberação podem ser tratadas diretamente pelo WhatsApp: 
-                    <strong className="text-emerald-700 dark:text-emerald-400 block font-mono mt-0.5">(11) 99123-4567</strong>
+                    Dúvidas sobre o cadastro e liberação podem ser tratadas diretamente pelo WhatsApp:{' '}
+                    <a
+                      href="https://wa.me/5511985778639"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-emerald-700 dark:text-emerald-400 font-bold block font-mono mt-0.5 hover:underline"
+                    >
+                      (11) 98577-8639
+                    </a>
                   </p>
                 </div>
               </div>

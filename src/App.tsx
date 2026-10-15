@@ -585,7 +585,7 @@ function MainApp() {
           {/* Social Links on Footer */}
           <div className="flex flex-wrap items-center justify-center gap-2">
             <a
-              href="https://tr.ee/VyOGbUa18b"
+              href={SOCIAL_LINKS.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               title="Fale com o Prof. Gabriel no WhatsApp (Tirar Dúvidas)"

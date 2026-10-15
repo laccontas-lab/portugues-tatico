@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const SOCIAL_LINKS = {
-  whatsapp: 'https://tr.ee/VyOGbUa18b',
+  whatsapp: 'https://wa.me/5511985778639',
   youtube: 'https://www.youtube.com/@Portuguestatico',
   instagram: 'https://www.instagram.com/portuguestatico_/'
 };
