@@ -1,0 +1,1764 @@
+{
+  "users": [
+    {
+      "id": "user_prof_gabriel",
+      "name": "Prof. Gabriel Figueiredo",
+      "email": "gabriel",
+      "passwordHash": "@G@briel01",
+      "role": "professor",
+      "phone": "(11) 99123-4567",
+      "status": "ativo",
+      "mustChangePassword": false,
+      "paymentConfirmed": true,
+      "createdAt": "2026-01-10T08:00:00.000Z",
+      "avatarUrl": "/src/assets/images/avatar_prof_gabriel_1790617931383.jpg"
+    },
+    {
+      "id": "user_lucas_mendes",
+      "name": "Lucas Mendes da Silva",
+      "email": "lucas.mendes@email.com",
+      "passwordHash": "aluno123",
+      "role": "aluno",
+      "cpf": "389.214.582-10",
+      "phone": "(11) 98765-4321",
+      "targetExam": "Polícia Rodoviária Federal (PRF)",
+      "status": "ativo",
+      "paymentConfirmed": true,
+      "createdAt": "2026-02-01T10:30:00.000Z"
+    },
+    {
+      "id": "user_mariana_souza",
+      "name": "Mariana Souza Guimarães",
+      "email": "mariana.souza@email.com",
+      "passwordHash": "aluno123",
+      "role": "aluno",
+      "cpf": "412.890.312-44",
+      "phone": "(21) 99876-5432",
+      "targetExam": "Oficial PMESP (Barro Branco)",
+      "status": "ativo",
+      "paymentConfirmed": true,
+      "createdAt": "2026-02-05T14:15:00.000Z"
+    },
+    {
+      "id": "user_carlos_eduardo",
+      "name": "Carlos Eduardo Nogueira",
+      "email": "carlos.edu@email.com",
+      "passwordHash": "aluno123",
+      "role": "aluno",
+      "cpf": "298.543.129-88",
+      "phone": "(31) 97654-3210",
+      "targetExam": "Polícia Federal (Agente/Escrivão)",
+      "status": "ativo",
+      "paymentConfirmed": true,
+      "createdAt": "2026-02-12T09:00:00.000Z"
+    },
+    {
+      "id": "user_beatriz_alencar",
+      "name": "Beatriz Alencar Santos",
+      "email": "beatriz.alencar@email.com",
+      "passwordHash": "aluno123",
+      "role": "aluno",
+      "cpf": "501.764.218-90",
+      "phone": "(41) 96543-2109",
+      "targetExam": "EsPCEx / Carreira Militar",
+      "status": "ativo",
+      "paymentConfirmed": true,
+      "createdAt": "2026-02-18T16:20:00.000Z"
+    },
+    {
+      "id": "user_rafael_costa",
+      "name": "Rafael Costa de Oliveira",
+      "email": "rafael.costa@email.com",
+      "passwordHash": "aluno123",
+      "role": "aluno",
+      "cpf": "183.924.712-33",
+      "phone": "(61) 95432-1098",
+      "targetExam": "Polícia Civil SP (Escrivão)",
+      "status": "ativo",
+      "paymentConfirmed": true,
+      "createdAt": "2026-03-01T11:45:00.000Z"
+    },
+    {
+      "id": "user_felipe_torres",
+      "name": "Felipe Torres Silveira",
+      "email": "felipe.torres@email.com",
+      "passwordHash": "aluno123",
+      "role": "aluno",
+      "cpf": "451.892.301-77",
+      "phone": "(11) 98111-2233",
+      "targetExam": "Polícia Rodoviária Federal (PRF)",
+      "status": "pendente_aprovacao",
+      "paymentConfirmed": false,
+      "createdAt": "2026-10-02T14:20:00.000Z"
+    },
+    {
+      "id": "user_camila_rocha",
+      "name": "Camila Rocha Viana",
+      "email": "camila.rocha@email.com",
+      "passwordHash": "aluno123",
+      "role": "aluno",
+      "cpf": "392.741.092-55",
+      "phone": "(21) 97222-3344",
+      "targetExam": "AFA (Academia da Força Aérea)",
+      "status": "pendente_aprovacao",
+      "paymentConfirmed": false,
+      "createdAt": "2026-10-03T09:15:00.000Z"
+    },
+    {
+      "id": "user_1791074558107_8agc",
+      "name": "Rodrigo Teste",
+      "email": "rodrigo.test@email.com",
+      "passwordHash": "senhaSegura123",
+      "role": "aluno",
+      "phone": "(11) 98888-7777",
+      "targetExam": "AFA (Academia da Força Aérea)",
+      "status": "pendente_aprovacao",
+      "paymentConfirmed": false,
+      "createdAt": "2026-10-04T00:42:38.107Z"
+    },
+    {
+      "id": "user_1791507638182_7h23",
+      "name": "Candidato Teste Segurança",
+      "email": "aluno_teste_1791507638182@exemplo.com",
+      "passwordHash": "senhaSegura123",
+      "role": "aluno",
+      "targetExam": "Polícia Rodoviária Federal",
+      "status": "ativo",
+      "paymentConfirmed": true,
+      "createdAt": "2026-10-09T01:00:38.182Z"
+    },
+    {
+      "id": "user_1791507696299_6x7m",
+      "name": "Candidato Teste Segurança",
+      "email": "aluno_teste_1791507696298@exemplo.com",
+      "passwordHash": "senhaSegura123",
+      "role": "aluno",
+      "targetExam": "Polícia Rodoviária Federal",
+      "status": "ativo",
+      "paymentConfirmed": true,
+      "createdAt": "2026-10-09T01:01:36.299Z"
+    },
+    {
+      "id": "user_1791566190643_u707",
+      "name": "Candidato Teste Segurança",
+      "email": "aluno_teste_1791566190643@exemplo.com",
+      "role": "aluno",
+      "targetExam": "Polícia Rodoviária Federal",
+      "status": "ativo",
+      "paymentConfirmed": true,
+      "createdAt": "2026-10-09T17:16:30.643Z"
+    }
+  ],
+  "essays": [
+    {
+      "id": "essay_1791566190659_9dfy",
+      "studentId": "user_1791566190643_u707",
+      "studentName": "Candidato Teste Segurança",
+      "title": "Texto submetido na proposta",
+      "theme": "Segurança e Tecnologia",
+      "submittedAt": "2026-10-09T17:16:30.659Z",
+      "status": "Corrigida",
+      "originalFile": {
+        "name": "arquivo.pdf",
+        "size": 100,
+        "type": "application/pdf"
+      },
+      "proposalId": "prop_1791566190647_g3mw",
+      "correction": {
+        "grade": 9.6,
+        "feedback": "Segunda versão revisada pelo Professor Gabriel.",
+        "attentionPoints": [],
+        "correctedAt": "2026-10-09T17:16:30.662Z",
+        "teacherId": "user_prof_gabriel",
+        "teacherName": "Prof. Gabriel Figueiredo"
+      }
+    },
+    {
+      "id": "essay_1791566190646_m5sz",
+      "studentId": "user_1791566190643_u707",
+      "studentName": "Candidato Teste Segurança",
+      "title": "Redação Teste Auditoria",
+      "theme": "Tema Teste de Preservação",
+      "examTarget": "PRF",
+      "submittedAt": "2026-10-09T17:16:30.646Z",
+      "status": "Pendente",
+      "originalFile": {
+        "name": "redacao_teste.pdf",
+        "size": 1024,
+        "type": "application/pdf"
+      }
+    },
+    {
+      "id": "essay_1791507696308_3mqp",
+      "studentId": "user_1791507696299_6x7m",
+      "studentName": "Candidato Teste Segurança",
+      "title": "Texto submetido na proposta",
+      "theme": "Segurança e Tecnologia",
+      "submittedAt": "2026-10-09T01:01:36.308Z",
+      "status": "Corrigida",
+      "originalFile": {
+        "name": "arquivo.pdf",
+        "size": 100,
+        "type": "application/pdf"
+      },
+      "proposalId": "prop_1791507696302_y3wu",
+      "correction": {
+        "grade": 9.6,
+        "feedback": "Segunda versão revisada pelo Professor Gabriel.",
+        "attentionPoints": [],
+        "correctedAt": "2026-10-09T01:01:36.310Z",
+        "teacherId": "user_prof_gabriel",
+        "teacherName": "Prof. Gabriel Figueiredo"
+      }
+    },
+    {
+      "id": "essay_1791507696301_pr7z",
+      "studentId": "user_1791507696299_6x7m",
+      "studentName": "Candidato Teste Segurança",
+      "title": "Redação Teste Auditoria",
+      "theme": "Tema Teste de Preservação",
+      "examTarget": "PRF",
+      "submittedAt": "2026-10-09T01:01:36.301Z",
+      "status": "Pendente",
+      "originalFile": {
+        "name": "redacao_teste.pdf",
+        "size": 1024,
+        "type": "application/pdf"
+      }
+    },
+    {
+      "id": "essay_1791507638195_gssj",
+      "studentId": "user_1791507638182_7h23",
+      "studentName": "Candidato Teste Segurança",
+      "title": "Texto submetido na proposta",
+      "theme": "Segurança e Tecnologia",
+      "submittedAt": "2026-10-09T01:00:38.195Z",
+      "status": "Corrigida",
+      "originalFile": {
+        "name": "arquivo.pdf",
+        "size": 100,
+        "type": "application/pdf"
+      },
+      "proposalId": "prop_1791507638190_432d",
+      "correction": {
+        "grade": 9.6,
+        "feedback": "Segunda versão revisada pelo Professor Gabriel.",
+        "attentionPoints": [],
+        "correctedAt": "2026-10-09T01:00:38.198Z",
+        "teacherId": "user_prof_gabriel",
+        "teacherName": "Prof. Gabriel Figueiredo"
+      }
+    },
+    {
+      "id": "essay_1791507638188_3m11",
+      "studentId": "user_1791507638182_7h23",
+      "studentName": "Candidato Teste Segurança",
+      "title": "Redação Teste Auditoria",
+      "theme": "Tema Teste de Preservação",
+      "examTarget": "PRF",
+      "submittedAt": "2026-10-09T01:00:38.188Z",
+      "status": "Pendente",
+      "originalFile": {
+        "name": "redacao_teste.pdf",
+        "size": 1024,
+        "type": "application/pdf"
+      }
+    },
+    {
+      "id": "essay_00_lucas",
+      "studentId": "user_lucas_mendes",
+      "studentName": "Lucas Mendes da Silva",
+      "title": "O Policiamento Ostensivo e a Preservação da Ordem Pública",
+      "theme": "Desafios do patrulhamento preventivo e a aproximação com a sociedade civil",
+      "examTarget": "PRF",
+      "submittedAt": "2026-08-05T10:00:00.000Z",
+      "status": "Corrigida",
+      "originalFile": {
+        "name": "redacao_lucas_policiamento_inicial.pdf",
+        "size": 350000,
+        "type": "application/pdf",
+        "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+      },
+      "correction": {
+        "grade": 7.8,
+        "feedback": "Primeira redação diagnóstica do Lucas. O tema foi compreendido, mas houve tangenciamento no segundo parágrafo e problemas sérios de paragrafação (parágrafo único de 12 linhas sem quebra de períodos). Faltou repertório constitucional fundamentado no art. 144 da CF/88. Vamos aplicar o Método Português Tático nas próximas!",
+        "attentionPoints": [
+          "Estrutura",
+          "Pontuação",
+          "Repertório"
+        ],
+        "correctedAt": "2026-08-07T16:00:00.000Z",
+        "teacherId": "user_prof_gabriel",
+        "teacherName": "Prof. Gabriel Figueiredo"
+      }
+    },
+    {
+      "id": "essay_01",
+      "studentId": "user_lucas_mendes",
+      "studentName": "Lucas Mendes da Silva",
+      "title": "A tecnologia e o combate ao crime transfronteiriço",
+      "theme": "O papel da integração tecnológica no policiamento de fronteiras",
+      "examTarget": "PRF",
+      "submittedAt": "2026-09-27T14:20:00.000Z",
+      "status": "Pendente",
+      "originalFile": {
+        "name": "redacao_lucas_mendes_fronteiras.pdf",
+        "size": 428000,
+        "type": "application/pdf",
+        "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+      }
+    },
+    {
+      "id": "essay_02",
+      "studentId": "user_mariana_souza",
+      "studentName": "Mariana Souza Guimarães",
+      "title": "Segurança Cidadã e Inteligência Policial",
+      "theme": "A militarização da segurança pública e a preservação dos direitos fundamentais",
+      "examTarget": "PMESP",
+      "submittedAt": "2026-09-28T09:15:00.000Z",
+      "status": "Pendente",
+      "originalFile": {
+        "name": "redacao_mariana_pmesp.pdf",
+        "size": 512000,
+        "type": "application/pdf",
+        "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+      }
+    },
+    {
+      "id": "essay_03",
+      "studentId": "user_beatriz_alencar",
+      "studentName": "Beatriz Alencar Santos",
+      "title": "Defesa Cibernética e a Soberania Nacional no Século XXI",
+      "theme": "A atuação das Forças Armadas na proteção de infraestruturas críticas",
+      "examTarget": "EsPCEx",
+      "submittedAt": "2026-09-20T10:00:00.000Z",
+      "status": "Corrigida",
+      "originalFile": {
+        "name": "redacao_beatriz_defesa_cibernetica.pdf",
+        "size": 380000,
+        "type": "application/pdf",
+        "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+      },
+      "correction": {
+        "grade": 9.8,
+        "feedback": "Excelente trabalho, Beatriz! Texto impecável na progressão temática, com tese clara logo na introdução e excelente domínio dos conectivos interparágrafos. O repertório constitucional (Art. 142) e a menção aos ataques a redes elétricas como guerra híbrida demonstraram maturidade militar e argumentativa. Pequeno ajuste apenas no paralelismo sintático do terceiro parágrafo.",
+        "attentionPoints": [
+          "Repertório",
+          "Coesão",
+          "Estrutura"
+        ],
+        "correctedAt": "2026-09-22T17:30:00.000Z",
+        "teacherId": "user_prof_gabriel",
+        "teacherName": "Prof. Gabriel Figueiredo",
+        "correctionFile": {
+          "name": "correcao_prof_gabriel_beatriz_nota98.pdf",
+          "size": 490000,
+          "type": "application/pdf",
+          "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+        }
+      }
+    },
+    {
+      "id": "essay_04",
+      "studentId": "user_carlos_eduardo",
+      "studentName": "Carlos Eduardo Nogueira",
+      "title": "Desafios da Investigação Financeira contra a Corrupção",
+      "theme": "O combate à lavagem de dinheiro como instrumento de asfixia do crime organizado",
+      "examTarget": "Polícia Federal",
+      "submittedAt": "2026-09-15T16:40:00.000Z",
+      "status": "Corrigida",
+      "originalFile": {
+        "name": "redacao_carlos_lavagem_dinheiro.pdf",
+        "size": 440000,
+        "type": "application/pdf",
+        "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+      },
+      "correction": {
+        "grade": 9.6,
+        "feedback": "Muito bom, Carlos. Argumentação densa e fundamentada na Lei 9.613/98 e no papel do COAF. Fique atento à pontuação em orações subordinadas adjetivas explicativas: faltou vírgula ao isolar oração explicativa no D2. No mais, coesão exemplar e conclusão pragmática com propostas acionáveis.",
+        "attentionPoints": [
+          "Pontuação",
+          "Argumentação"
+        ],
+        "correctedAt": "2026-09-17T11:00:00.000Z",
+        "teacherId": "user_prof_gabriel",
+        "teacherName": "Prof. Gabriel Figueiredo",
+        "correctionFile": {
+          "name": "correcao_prof_gabriel_carlos_nota96.pdf",
+          "size": 520000,
+          "type": "application/pdf",
+          "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+        }
+      }
+    },
+    {
+      "id": "essay_05",
+      "studentId": "user_lucas_mendes",
+      "studentName": "Lucas Mendes da Silva",
+      "title": "O Fator Humano e a Fadiga no Trânsito Rodoviário",
+      "theme": "Causas do alto índice de acidentes nas rodovias federais e medidas de prevenção",
+      "examTarget": "PRF",
+      "submittedAt": "2026-09-08T18:00:00.000Z",
+      "status": "Corrigida",
+      "originalFile": {
+        "name": "redacao_lucas_transito_prf.pdf",
+        "size": 395000,
+        "type": "application/pdf",
+        "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+      },
+      "correction": {
+        "grade": 9,
+        "feedback": "Lucas, evolução nítida em relação à sua primeira redação (que foi 7.8). Você corrigiu os problemas de quebra de parágrafo e dominou a estrutura do Método Português Tático. Ponto de atenção: cuidado com o uso do pronome relativo \"cujo\" sem artigo, e evite períodos excessivamente longos no D1.",
+        "attentionPoints": [
+          "Gramática",
+          "Pontuação",
+          "Conclusão"
+        ],
+        "correctedAt": "2026-09-10T15:20:00.000Z",
+        "teacherId": "user_prof_gabriel",
+        "teacherName": "Prof. Gabriel Figueiredo",
+        "correctionFile": {
+          "name": "correcao_prof_gabriel_lucas_nota90.pdf",
+          "size": 475000,
+          "type": "application/pdf",
+          "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+        }
+      }
+    },
+    {
+      "id": "essay_06",
+      "studentId": "user_lucas_mendes",
+      "studentName": "Lucas Mendes da Silva",
+      "title": "Segurança Viária e Fiscalização Eletrônica",
+      "theme": "O impacto dos radares e da tecnologia na redução de mortes no trânsito",
+      "examTarget": "PRF",
+      "submittedAt": "2026-08-20T11:00:00.000Z",
+      "status": "Corrigida",
+      "originalFile": {
+        "name": "redacao_lucas_radares.pdf",
+        "size": 360000,
+        "type": "application/pdf",
+        "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+      },
+      "correction": {
+        "grade": 8.4,
+        "feedback": "Bom texto, mas com truncamento de períodos no segundo parágrafo. Houve repetição viciosa da palavra \"sociedade\". Treine o uso de anáforas e sinônimos táticos da nossa Central de Estudos.",
+        "attentionPoints": [
+          "Coesão",
+          "Pontuação",
+          "Gramática"
+        ],
+        "correctedAt": "2026-08-22T14:10:00.000Z",
+        "teacherId": "user_prof_gabriel",
+        "teacherName": "Prof. Gabriel Figueiredo"
+      }
+    },
+    {
+      "id": "essay_07",
+      "studentId": "user_rafael_costa",
+      "studentName": "Rafael Costa de Oliveira",
+      "title": "A Perícia Papiloscópica na Solução de Crimes Contra a Vida",
+      "theme": "A relevância da prova técnica no processo penal brasileiro",
+      "examTarget": "Polícia Civil SP",
+      "submittedAt": "2026-09-12T09:30:00.000Z",
+      "status": "Corrigida",
+      "originalFile": {
+        "name": "redacao_rafael_pericia.pdf",
+        "size": 410000,
+        "type": "application/pdf",
+        "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+      },
+      "correction": {
+        "grade": 8.8,
+        "feedback": "Rafael, excelente fundamentação penal e processo penal. Precisa melhorar a transição entre a introdução e o primeiro desenvolvimento. Lembre-se de utilizar conectivos interparágrafos afirmativos (\"Nesse viés\", \"Ademais\").",
+        "attentionPoints": [
+          "Coesão",
+          "Introdução",
+          "Coerência"
+        ],
+        "correctedAt": "2026-09-14T16:00:00.000Z",
+        "teacherId": "user_prof_gabriel",
+        "teacherName": "Prof. Gabriel Figueiredo"
+      }
+    },
+    {
+      "id": "essay_08",
+      "studentId": "user_mariana_souza",
+      "studentName": "Mariana Souza Guimarães",
+      "title": "Policiamento Comunitário como Estratégia de Pacificação",
+      "theme": "A aproximação entre as forças policiais e as comunidades vulneráveis",
+      "examTarget": "PMESP",
+      "submittedAt": "2026-08-28T14:00:00.000Z",
+      "status": "Corrigida",
+      "originalFile": {
+        "name": "redacao_mariana_comunitario.pdf",
+        "size": 450000,
+        "type": "application/pdf",
+        "dataUrl": "data:text/plain;charset=utf-8;base64,UkVEQcOHw4NPIFRBVEFDQSBQT1JUVUdVw4pTCgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUcmFuc2NyacOnw6NvIGVzdHJ1dHVyYWRhIGRhIHJlZGHDp8OjbyBlbnZpYWRhIG5vIFBvcnR1Z3XDqnMgVMOidGljby4="
+      },
+      "correction": {
+        "grade": 9.4,
+        "feedback": "Mariana, redação de alto nível para a banca Vunesp! Domínio pleno da norma-padrão, tópicos frasais muito bem delimitados. Atenção apenas na conclusão para detalhar ainda mais o agente responsável pela proposta de intervenção.",
+        "attentionPoints": [
+          "Conclusão",
+          "Argumentação"
+        ],
+        "correctedAt": "2026-08-30T10:00:00.000Z",
+        "teacherId": "user_prof_gabriel",
+        "teacherName": "Prof. Gabriel Figueiredo"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_01",
+      "statement": "Assinale a alternativa em que a concordância verbal está em estrita conformidade com a norma-padrão da língua portuguesa:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Houveram muitos incidentes graves durante a operação policial na rodovia federal."
+        },
+        {
+          "id": "B",
+          "text": "Faziam anos que a corporação não realizava concurso público para oficiais."
+        },
+        {
+          "id": "C",
+          "text": "Tratam-se de investigações complexas conduzidas pela delegacia especializada."
+        },
+        {
+          "id": "D",
+          "text": "Mais de um policial e mais de um perito compareceu ao local do crime."
+        },
+        {
+          "id": "E",
+          "text": "Devem existir evidências materiais suficientes para corroborar a denúncia."
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Na alternativa E, a locução \"devem existir\" tem como sujeito \"evidências materiais suficientes\" (plural). O verbo \"existir\" é pessoal, transmitindo sua concordância para o verbo auxiliar \"dever\" (Devem existir). Nas outras: A) O verbo haver no sentido de existir é impessoal: \"Houve muitos incidentes\"; B) O verbo fazer indicando tempo transcorrido é impessoal: \"Fazia anos\"; C) Com índice de indeterminação do sujeito \"se\", o verbo transitivo indireto fica no singular: \"Trata-se de investigações\".",
+      "subject": "Concordância",
+      "examBoard": "Cebraspe",
+      "difficulty": "Média",
+      "year": 2024,
+      "referenceExam": "Polícia Federal — Agente"
+    },
+    {
+      "id": "q_02",
+      "statement": "Analise o emprego do sinal indicativo de crase nas orações a seguir e assinale a opção correta quanto à regência e à crase:",
+      "options": [
+        {
+          "id": "A",
+          "text": "O comandante referiu-se à ordens superiores emanadas pelo Ministério da Defesa."
+        },
+        {
+          "id": "B",
+          "text": "O agente informou o ocorrido à pessoa cujo veículo fora furtado."
+        },
+        {
+          "id": "C",
+          "text": "A patrulha militar agiu com rapidez e dirigiu-se à um galpão abandonado."
+        },
+        {
+          "id": "D",
+          "text": "O delegado aspirava o cargo de diretor geral do departamento de polícia."
+        },
+        {
+          "id": "E",
+          "text": "Os candidatos foram submetidos à testes rigorosos de aptidão física."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Na alternativa B: O verbo \"informar\" é bitransitivo (informar algo A alguém): \"o ocorrido\" (OD) + \"à pessoa\" (OI preposição \"a\" + artigo definido \"a\" = crase obrigatória). Erros nas outras: A) Não há crase antes de palavra no plural sem artigo definido (\"a ordens\"); C) Não há crase antes de artigo indefinido \"um\"; D) O verbo \"aspirar\" no sentido de desejar/almejar exige preposição \"a\": \"aspirava ao cargo\"; E) Não há crase antes de palavra no masculino e plural (\"a testes\").",
+      "subject": "Crase",
+      "examBoard": "Vunesp",
+      "difficulty": "Média",
+      "year": 2024,
+      "referenceExam": "PMESP — Oficial do Barro Branco"
+    },
+    {
+      "id": "q_03",
+      "statement": "No que concerne à regência verbal de acordo com a norma culta, assinale a oração redigida de forma impecável:",
+      "options": [
+        {
+          "id": "A",
+          "text": "O investigador preferiu interrogar o suspeito do que aguardar a perícia técnica."
+        },
+        {
+          "id": "B",
+          "text": "O oficial visou aos documentos oficiais antes de autorizar o envio ao tribunal militar."
+        },
+        {
+          "id": "C",
+          "text": "Custou ao policial para entender os verdadeiros motivos do crime hediondo."
+        },
+        {
+          "id": "D",
+          "text": "Todos os cidadãos devem obedecer os sinais regulamentares de trânsito rodoviário."
+        },
+        {
+          "id": "E",
+          "text": "A equipe de resgate assistiu os feridos com presteza e dedicação humanitária."
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "O verbo \"assistir\" no sentido de prestar auxílio/socorro é transitivo direto (ou transitivo indireto com preposição a), aceitando a regência direta \"assistiu os feridos\". Erros: A) O verbo preferir rejeita \"do que\" ou \"mais que\": prefere-se uma coisa A outra (\"preferiu interrogar o suspeito a aguardar\"); B) \"Visar\" no sentido de pôr visto/assinar é transitivo direto (\"visou os documentos\"); C) A construção clássica do verbo custar no sentido de ser difícil é: \"Custou ao policial entender...\" (sem a preposição \"para\"); D) O verbo \"obedecer\" é estritamente transitivo indireto (\"obedecer aos sinais\").",
+      "subject": "Regência",
+      "examBoard": "FGV",
+      "difficulty": "Difícil",
+      "year": 2023,
+      "referenceExam": "Polícia Civil — Escrivão"
+    },
+    {
+      "id": "q_04",
+      "statement": "Assinale a alternativa em que a pontuação respeita integralmente as regras gramaticais e a clareza sintática do período:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os relatórios de inteligência militar, apontam que o crime organizado atua de forma transnacional."
+        },
+        {
+          "id": "B",
+          "text": "Durante a abordagem noturna os agentes encontraram, armas e munições de grosso calibre."
+        },
+        {
+          "id": "C",
+          "text": "A soberania do Estado, embora constantemente desafiada, permanece como alicerce da ordem jurídica."
+        },
+        {
+          "id": "D",
+          "text": "Nenhum dos novos recrutas soube explicar, por que a guarda havia sido desfeita."
+        },
+        {
+          "id": "E",
+          "text": "O perito colheu as amostras, e as encaminhou para análise laboratorial imediata."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Na alternativa C, a oração subordinada adverbial concessiva intercalada \"embora constantemente desafiada\" está corretamente isolada por vírgulas duplas, sem separar o sujeito (\"A soberania do Estado\") do seu predicado verbal. Em A: Vírgula incorreta separando sujeito de verbo. Em B: Vírgula proibida separando verbo transitivo de objeto direto. Em D: Vírgula separando a oração subordinada substantiva objetiva direta. Em E: Vírgula dispensável antes de \"e\" com o mesmo sujeito.",
+      "subject": "Pontuação",
+      "examBoard": "EsPCEx",
+      "difficulty": "Fácil",
+      "year": 2024,
+      "referenceExam": "Exército Brasileiro — Cadete"
+    },
+    {
+      "id": "q_05",
+      "statement": "Considere o período: \"Apresentadas as conclusões da comissão de sindicância, os delegados deliberaram sobre as punições cabíveis.\" A oração reduzida destacada classifica-se sintaticamente como subordinada:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adverbial causal reduzida de particípio."
+        },
+        {
+          "id": "B",
+          "text": "Adverbial temporal reduzida de particípio."
+        },
+        {
+          "id": "C",
+          "text": "Adverbial condicional reduzida de gerúndio."
+        },
+        {
+          "id": "D",
+          "text": "Substantiva completiva nominal."
+        },
+        {
+          "id": "E",
+          "text": "Adjetiva restritiva reduzida de particípio."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ao desenvolver a oração: \"Assim que foram apresentadas as conclusões...\" ou \"Quando foram apresentadas as conclusões...\". Trata-se indiscutivelmente de uma oração subordinada adverbial temporal reduzida de particípio.",
+      "subject": "Sintaxe",
+      "examBoard": "Cebraspe",
+      "difficulty": "Difícil",
+      "year": 2023,
+      "referenceExam": "PRF — Policial Rodoviário Federal"
+    },
+    {
+      "id": "q_06",
+      "statement": "Identifique a opção em que a concordância nominal atende às normas da gramática normativa:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seguem anexo às correspondências os laudos periciais solicitados pelo magistrado."
+        },
+        {
+          "id": "B",
+          "text": "A delegada declarou que ela mesma redigiu o auto de prisão em flagrante delito."
+        },
+        {
+          "id": "C",
+          "text": "Para o ingresso no curso de formação, é necessária pontuação alta e dedicação total."
+        },
+        {
+          "id": "D",
+          "text": "Os militares estavam bastante cansados, mas se mantiveram alertas durante o turno."
+        },
+        {
+          "id": "E",
+          "text": "A entrada no quartel general é proibido para civis desacompanhados."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "O pronome reflexivo \"mesmo\" concorda com a pessoa a que se refere: a delegada declarou que ela mesma redigiu. Erros nas demais: A) \"Seguem anexos os laudos\" (concorda com laudos); C) Com sujeito posposto determinado, se houver artigo \"é necessária A pontuação\", mas sem artigo seria \"é necessário pontuação\"; D) \"alertas\" como adjetivo concorda com militares, mas D possui \"bastante\" como advérbio correto e \"alertas\" pluralizado (embora alerta costume figurar invariável na tradição militar); E) \"é proibida\" quando há o artigo definido \"a entrada\". Portanto B é a regra de ouro.",
+      "subject": "Concordância",
+      "examBoard": "FCC",
+      "difficulty": "Média",
+      "year": 2024,
+      "referenceExam": "Tribunal de Justiça — Oficial de Justiça"
+    },
+    {
+      "id": "q_07",
+      "statement": "Assinale a alternativa em que a regência do verbo destacado e o emprego de preposições estão plenamente adequados:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Esta é a viatura da polícia que o motorista bateu na rodovia federal."
+        },
+        {
+          "id": "B",
+          "text": "O cargo militar a que a aspirante almeja exige renúncia e disciplina férrea."
+        },
+        {
+          "id": "C",
+          "text": "Os documentos com que o escrivão fez referência constam no inquérito policial."
+        },
+        {
+          "id": "D",
+          "text": "O tema sobre o qual o coronel discursou versava sobre a estratégia de fronteiras."
+        },
+        {
+          "id": "E",
+          "text": "Aquela foi a perícia cujos resultados todos os agentes duvidavam."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Quem discursa, discursa \"sobre\" algo (\"O tema sobre o qual o coronel discursou\"). Em A: \"em que o motorista bateu\"; em B: \"almejar\" é transitivo direto (\"o cargo que a aspirante almeja\"); em C: quem faz referência, faz referência \"a\" (\"a que o escrivão fez referência\"); em E: quem duvida, duvida \"de\" (\"de cujos resultados todos os agentes duvidavam\").",
+      "subject": "Regência",
+      "examBoard": "Cebraspe",
+      "difficulty": "Difícil",
+      "year": 2024,
+      "referenceExam": "Polícia Federal — Perito Criminal"
+    },
+    {
+      "id": "q_08",
+      "statement": "No trecho: \"O policial, cujo distintivo reluzia à luz do sol matutino, avançou com cautela.\", o vocábulo CUJO desempenha a função sintática de:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sujeito da oração adjetiva."
+        },
+        {
+          "id": "B",
+          "text": "Adjunto adnominal do substantivo distintivo."
+        },
+        {
+          "id": "C",
+          "text": "Complemento nominal."
+        },
+        {
+          "id": "D",
+          "text": "Objeto direto do verbo reluzia."
+        },
+        {
+          "id": "E",
+          "text": "Aposto explicativo do policial."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "O pronome relativo \"cujo\" e suas flexões exercem invariavelmente a função sintática de adjunto adnominal do substantivo determinado que introduz (o distintivo dele = cujo distintivo).",
+      "subject": "Sintaxe",
+      "examBoard": "Vunesp",
+      "difficulty": "Média",
+      "year": 2023,
+      "referenceExam": "PMESP — Soldado de 2ª Classe"
+    }
+  ],
+  "questionAttempts": [
+    {
+      "id": "att_1",
+      "userId": "user_lucas_mendes",
+      "questionId": "q_01",
+      "selectedAnswer": "E",
+      "isCorrect": true,
+      "attemptedAt": "2026-09-20T10:00:00Z",
+      "subject": "Concordância"
+    },
+    {
+      "id": "att_2",
+      "userId": "user_lucas_mendes",
+      "questionId": "q_02",
+      "selectedAnswer": "B",
+      "isCorrect": true,
+      "attemptedAt": "2026-09-21T11:00:00Z",
+      "subject": "Crase"
+    },
+    {
+      "id": "att_3",
+      "userId": "user_lucas_mendes",
+      "questionId": "q_03",
+      "selectedAnswer": "E",
+      "isCorrect": true,
+      "attemptedAt": "2026-09-22T14:30:00Z",
+      "subject": "Regência"
+    },
+    {
+      "id": "att_4",
+      "userId": "user_lucas_mendes",
+      "questionId": "q_04",
+      "selectedAnswer": "B",
+      "isCorrect": false,
+      "attemptedAt": "2026-09-23T15:20:00Z",
+      "subject": "Pontuação"
+    },
+    {
+      "id": "att_5",
+      "userId": "user_lucas_mendes",
+      "questionId": "q_05",
+      "selectedAnswer": "A",
+      "isCorrect": false,
+      "attemptedAt": "2026-09-24T16:00:00Z",
+      "subject": "Sintaxe"
+    },
+    {
+      "id": "att_6",
+      "userId": "user_lucas_mendes",
+      "questionId": "q_06",
+      "selectedAnswer": "B",
+      "isCorrect": true,
+      "attemptedAt": "2026-09-25T17:10:00Z",
+      "subject": "Concordância"
+    },
+    {
+      "id": "att_7",
+      "userId": "user_lucas_mendes",
+      "questionId": "q_07",
+      "selectedAnswer": "B",
+      "isCorrect": false,
+      "attemptedAt": "2026-09-26T18:00:00Z",
+      "subject": "Regência"
+    },
+    {
+      "id": "att_8",
+      "userId": "user_lucas_mendes",
+      "questionId": "q_08",
+      "selectedAnswer": "B",
+      "isCorrect": true,
+      "attemptedAt": "2026-09-27T09:40:00Z",
+      "subject": "Sintaxe"
+    }
+  ],
+  "examBoards": [
+    {
+      "id": "board_cebraspe",
+      "name": "Cebraspe / Cespe",
+      "category": "civil",
+      "slug": "cebraspe",
+      "characteristics": "Estrutura dissertativo-argumentativa ou dissertativa com tópicos pontuais pré-definidos (padrão de resposta fechado). Avalia densidade informativa, domínio da terminologia técnica da segurança e precisão vocabular sem rodeios.",
+      "scoringCriteria": [
+        "Apresentação e Legibilidade (0,5 a 1,0 ponto): Margens impecáveis, ausência de rasuras grotescas e translineação correta.",
+        "Estrutura Textual e Coesão: Conectivos interparágrafos e encadeamento lógico de argumentos.",
+        "Desenvolvimento dos Tópicos (maior peso da prova): Cada tópico do edital deve ser respondido em um parágrafo dedicado.",
+        "Penalização Gramatical: Cálculo clássico Nota = Conteúdo - (Número de Erros / Total de Linhas) * Fator."
+      ],
+      "recommendedStructure": "1 Parágrafo de Introdução apresentando a tese e mapeando os tópicos + 1 Parágrafo para cada tópico exigido na prova (geralmente Tópico 1, 2 e 3) + 1 Parágrafo de Conclusão sintética.",
+      "tacticalTips": [
+        "Inicie os parágrafos de desenvolvimento citando explicitamente os termos da banca (ex: \"No que concerne ao combate à lavagem de capitais...\").",
+        "Nunca deixe um tópico da banca sem resposta expressa, pois a régua de correção do Cebraspe é pontuada por espelho analítico de tópicos.",
+        "Escreva com letra legível e preencha sempre entre 27 e 30 linhas para diluir o impacto das penalizações gramaticais."
+      ],
+      "sampleTheme": "O papel da Polícia Rodoviária Federal na garantia da mobilidade e segurança nas rodovias sustentáveis do século XXI."
+    },
+    {
+      "id": "board_vunesp",
+      "name": "Vunesp",
+      "category": "civil",
+      "slug": "vunesp",
+      "characteristics": "Predileção por temas de relevância social, dilemas éticos, cidadania e direitos coletivos. Exige tese muito bem defendida com posicionamento claro desde a introdução.",
+      "scoringCriteria": [
+        "Tema (Adequação temático-conceitual): Não tangenciar o tema nem cometer fuga parcial.",
+        "Estrutura (Gênero dissertativo-argumentativo): Proposições lógicas, introdução com tese, desenvolvimento com argumentos de autoridade e conclusão coesa.",
+        "Expressão (Norma-Padrão e Coesão): Domínio impecável da regência, concordância, crase e precisão semântica."
+      ],
+      "recommendedStructure": "Clássica em 4 parágrafos: Introdução (Tópico frasal + Tese + 2 Argumentos norteadores) + D1 (Argumento 1 aprofundado) + D2 (Argumento 2 aprofundado) + Conclusão (Retomada da tese e proposta reflexiva).",
+      "tacticalTips": [
+        "Evite clichês e neutralidade covarde: a Vunesp premia candidatos com posicionamento seguro.",
+        "Utilize repertórios legitimados: Sociologia, Filosofia e Legislação Vigente (CF/88, Declaração Universal dos Direitos Humanos).",
+        "Faça uso refinado de operadores argumentativos (Ademais, Outrossim, Por conseguinte)."
+      ],
+      "sampleTheme": "A militarização da segurança pública e a preservação das garantias fundamentais individuais."
+    },
+    {
+      "id": "board_fgv",
+      "name": "Fundação Getulio Vargas (FGV)",
+      "category": "civil",
+      "slug": "fgv",
+      "characteristics": "Banca densa, com temas conceituais ou polêmicos. Valoriza raciocínio crítico original, precisão léxica e encadeamento rigoroso de causas e consequências.",
+      "scoringCriteria": [
+        "Consistência Argumentativa e Originalidade: Repudia cópia ou paráfrase fraca de textos motivadores.",
+        "Coesão e Coerência: Fluidez no trânsito das ideias sem saltos lógicos.",
+        "Correção Gramatical e Elegância Sintática: Construções de períodos complexos bem pontuadas."
+      ],
+      "recommendedStructure": "Introdução delimitadora + 2 Parágrafos de desenvolvimento em contraposição dialética ou causa-consequência + Conclusão sintetizadora.",
+      "tacticalTips": [
+        "Tenha precisão nos substantivos e adjetivos: a FGV penaliza vocabulário vago como \"coisa\", \"fazer\", \"bom\", \"ruim\".",
+        "Analise os textos motivadores para extrair o recorte exato do debate, mas traga dados e pensadores externos."
+      ],
+      "sampleTheme": "Inteligência Artificial e a vigilância estatal: limites entre a prevenção criminal e a privacidade do cidadão."
+    },
+    {
+      "id": "board_fcc",
+      "name": "Fundação Carlos Chagas (FCC)",
+      "category": "civil",
+      "slug": "fcc",
+      "characteristics": "Temas filosóficos, humanísticos e sociais abstratos (tempo, memória, ética, dignidade, tecnologia). Exige capacidade reflexiva e texto maduro.",
+      "scoringCriteria": [
+        "Conteúdo e Reflexão Crítica: Profundidade reflexiva sem superficialidade.",
+        "Estrutura e Progressão Textual: Parágrafos equilibrados e concatenados.",
+        "Linguagem e Expressão: Vocabulário culto, domínio das orações subordinadas e paralelismo."
+      ],
+      "recommendedStructure": "Introdução problematizadora + Desenvolvimento 1 (Causa/Origem histórica) + Desenvolvimento 2 (Consequência/Cenário contemporâneo) + Conclusão (Síntese filosófica da questão).",
+      "tacticalTips": [
+        "A FCC valoriza a citação ponderada de filósofos contemporâneos (Byung-Chul Han, Bauman, Arendt).",
+        "Cuidado com a estrutura sintática: evite orações soltas sem oração principal subordinante."
+      ],
+      "sampleTheme": "O imperativo da urgência e a erosão da convivência democrática no espaço público contemporâneo."
+    },
+    {
+      "id": "board_espcex",
+      "name": "EsPCEx (Escola Preparatória de Cadetes do Exército)",
+      "category": "militar",
+      "slug": "espcex",
+      "characteristics": "Exige texto dissertativo em prosa de 25 a 30 linhas. Temas comumente voltados para civismo, patriotismo, avanços científicos, defesa nacional, soberania e ética.",
+      "scoringCriteria": [
+        "Apresentação (legibilidade, margens e parágrafos): 0 a 20 pontos.",
+        "Tema e Tipologia Textual (fidelidade ao tema e defesa de ponto de vista): 0 a 40 pontos.",
+        "Expressão e Norma Culta (ortografia, concordância, regência, pontuação): 0 a 40 pontos."
+      ],
+      "recommendedStructure": "4 Parágrafos canônicos: Introdução de 5 a 6 linhas + D1 de 7 a 8 linhas + D2 de 7 a 8 linhas + Conclusão de 5 a 6 linhas.",
+      "tacticalTips": [
+        "Nunca assine ou faça qualquer marca identificadora na folha definitiva de redação.",
+        "Valorize a importância das Forças Armadas e da soberania nacional com equilíbrio técnico e respeito à Constituição.",
+        "Mantenha título obrigatório caso solicitado pela banca, com centralização e sem ponto final no título."
+      ],
+      "sampleTheme": "O papel da ciência e tecnologia militar na garantia da independência estratégica do Brasil."
+    },
+    {
+      "id": "board_esa",
+      "name": "ESA (Escola de Sargentos das Armas)",
+      "category": "militar",
+      "slug": "esa",
+      "characteristics": "Redação eliminatória com conceito APTO ou INAPTO (mínimo de nota 5,0 a 7,0). Temas diretos sobre valores humanos, dever moral, responsabilidade e superação.",
+      "scoringCriteria": [
+        "Mínimo de 20 e máximo de 30 linhas escritas.",
+        "Coesão e Coerência textual sem fuga temática.",
+        "Gramática normativa com foco em concordância e ortografia."
+      ],
+      "recommendedStructure": "Introdução objetiva + D1 focado em um exemplo concreto + D2 focado na importância para a sociedade + Conclusão propositiva.",
+      "tacticalTips": [
+        "O segredo na ESA é a segurança ortográfica e a clareza: um texto simples e gramaticalmente perfeito garante a aprovação.",
+        "Treine a letra de forma ou cursiva com legibilidade militar absoluta."
+      ],
+      "sampleTheme": "A disciplina e a resiliência como pilares da formação do caráter do líder militar."
+    },
+    {
+      "id": "board_cesgranrio",
+      "name": "Fundação Cesgranrio",
+      "category": "civil",
+      "slug": "cesgranrio",
+      "characteristics": "Banca responsável pelo Concurso Nacional Unificado (CNU), Banco do Brasil, Caixa Econômica Federal e Petrobras. Exige dissertação estruturada de 20 a 30 linhas com posicionamento firme, coesão exemplar e soluções pragmáticas.",
+      "scoringCriteria": [
+        "Adequação ao Tema e à Tipologia: Compreensão do recorte temático e formulação de tese evidente (0 a 10 pontos).",
+        "Progressão Textual e Coesão: Encadeamento lógico com uso variado e preciso de operadores argumentativos (0 a 10 pontos).",
+        "Norma-Padrão e Domínio da Escrita: Concordância, regência, crase e precisão semântica (0 a 10 pontos)."
+      ],
+      "recommendedStructure": "4 Parágrafos: Introdução com contextualização temática e tese + D1 focado em causas/desafios estruturais + D2 focado nos impactos socioeconômicos + Conclusão com intervenção aplicável.",
+      "tacticalTips": [
+        "Evite soluções vagas de senso comum (\"as pessoas devem se conscientizar\"); detalhe o agente estatal, a ação e o efeito esperado.",
+        "Em temas do CNU, traga a perspectiva de políticas públicas, diversidade, inclusão e cidadania.",
+        "Não faça rasuras e respeite rigorosamente as margens laterais."
+      ],
+      "sampleTheme": "Desafios da inclusão produtiva e da qualificação profissional diante da automação no Brasil contemporâneo."
+    },
+    {
+      "id": "board_instituto_aocp",
+      "name": "Instituto AOCP",
+      "category": "civil",
+      "slug": "instituto-aocp",
+      "characteristics": "Banca tradicional em concursos das Polícias Militares, Polícias Civis, Perícias Oficiais e Tribunais. Provas discursivas objetivas, frequentemente voltadas para segurança pública, Direitos Humanos e legislação.",
+      "scoringCriteria": [
+        "Aspectos Formais e Gramaticais: Ortografia, pontuação, sintaxe e paragrafação equilibrada (0 a 10 pontos).",
+        "Aspectos Textuais: Capacidade de argumentar sem circular em torno do tema (0 a 15 pontos).",
+        "Aspectos Técnicos: Conhecimento específico sobre o tema proposto com fundamentação legal (0 a 15 pontos)."
+      ],
+      "recommendedStructure": "Introdução direta com tese clara + 2 desenvolvimentos temáticos densos (causa e consequência) + Conclusão que sintetiza as ideias e fecha o posicionamento.",
+      "tacticalTips": [
+        "A AOCP premia citações diretas de dispositivos da CF/88 (art. 5º e 144) em concursos policiais.",
+        "Equilibre o tamanho dos parágrafos (aproximadamente 6 a 8 linhas cada).",
+        "Evite primeira pessoa (nem singular nem plural); mantenha total impessoalidade."
+      ],
+      "sampleTheme": "A integração entre forças de segurança e a comunidade no enfrentamento da violência urbana."
+    },
+    {
+      "id": "board_quadrix",
+      "name": "Instituto Quadrix",
+      "category": "civil",
+      "slug": "quadrix",
+      "characteristics": "Presente em conselhos profissionais e órgãos distritais/estaduais. Adota espelho de correção analítico com quesitos e tópicos pontuados individualmente no padrão Cebraspe.",
+      "scoringCriteria": [
+        "Apresentação e Estrutura: Legibilidade, respeito às margens e estrutura dissertativa.",
+        "Desenvolvimento dos Tópicos Norteadores: Resposta direta e aprofundada a cada um dos tópicos indicados no comando.",
+        "Fórmula de Penalização Gramatical: Desconto por desvio em relação ao número total de linhas escritas."
+      ],
+      "recommendedStructure": "Introdução integradora + 1 parágrafo de desenvolvimento dedicado a CADA tópico da banca + Conclusão concisa.",
+      "tacticalTips": [
+        "Trate os tópicos exatamente na ordem em que aparecem no comando da prova.",
+        "Use termos do próprio tópico no início do parágrafo correspondente para guiar visualmente o examinador.",
+        "Escreva o número máximo de linhas para diluir o impacto percentual de eventuais erros gramaticais."
+      ],
+      "sampleTheme": "Ética na gestão pública e transparência como antídoto contra desvios de conduta."
+    },
+    {
+      "id": "board_ibfc",
+      "name": "IBFC (Instituto Brasileiro de Formação e Capacitação)",
+      "category": "civil",
+      "slug": "ibfc",
+      "characteristics": "Banca de grande porte para Polícias Civis, Polícias Penais e Tribunais de Justiça. Cobra textos dissertativo-argumentativos clássicos com enunciados diretos e exigência de vocabulário formal.",
+      "scoringCriteria": [
+        "Conhecimento do Tema: Domínio dos conceitos e dados apresentados.",
+        "Habilidade Argumentativa: Pertinência dos argumentos na sustentação do ponto de vista.",
+        "Coesão e Coerência: Ligação harmônica entre orações e parágrafos.",
+        "Morfossintaxe e Acentuação: Rigor gramatical estrito."
+      ],
+      "recommendedStructure": "4 Parágrafos: Introdução de 5 linhas + D1 de 8 linhas + D2 de 8 linhas + Conclusão com desfecho sólido de 5 linhas.",
+      "tacticalTips": [
+        "O IBFC penaliza muito a pontuação truncada e orações adjetivas explicativas sem vírgula.",
+        "Mantenha a letra limpa e homogênea; a banca é rigorosa com a apresentação estética.",
+        "Conecte cada ideia ao impacto real na sociedade."
+      ],
+      "sampleTheme": "Ressocialização no sistema prisional brasileiro: entraves estruturais e caminhos viáveis."
+    },
+    {
+      "id": "board_afa",
+      "name": "AFA (Academia da Força Aérea)",
+      "category": "militar",
+      "slug": "afa",
+      "characteristics": "Concurso para Oficiais Aviadores, Intendentes e de Infantaria da Força Aérea Brasileira. Redação eliminatória e classificatória de 20 a 30 linhas. Temas humanísticos, éticos, científicos e de soberania aeroespacial.",
+      "scoringCriteria": [
+        "Expressão (Gramática, Vocabulário Culto e Precisão Léxica): 0 a 4 pontos.",
+        "Estrutura (Paragrafação, Coesão e Conexão Lógica): 0 a 3 pontos.",
+        "Conteúdo (Pertinência da Tese e Consistência Argumentativa): 0 a 3 pontos."
+      ],
+      "recommendedStructure": "Introdução canônica com tese explícita + 2 desenvolvimentos densos com repertório histórico ou científico + Conclusão afirmativa e prospectiva.",
+      "tacticalTips": [
+        "Na AFA, o título é facultativo a menos que o edital o exija expressamente; se colocar, não pontue o final.",
+        "O vocabulário deve ser culto e refinado, sem pedantismo.",
+        "Evite sentimentalismo ou arroubos patrióticos vazios; fundamente seus argumentos em fatos e lógica."
+      ],
+      "sampleTheme": "A exploração aeroespacial e a preservação do meio ambiente: dilemas éticos do progresso técnico."
+    },
+    {
+      "id": "board_en",
+      "name": "EN (Escola Naval)",
+      "category": "militar",
+      "slug": "escola-naval",
+      "characteristics": "Formação de Oficiais da Marinha do Brasil (Armada, Fuzileiros Navais e Intendentes). Exige dissertação argumentativa de 20 a 30 linhas com rigor militar, erudição e reflexão estratégica de alto nível.",
+      "scoringCriteria": [
+        "Estrutura e Conteúdo (Tese, Relevância, Coerência e Repertório): 0 a 50 pontos.",
+        "Expressão e Domínio da Norma Culta (Concordância, Regência, Pontuação e Precisão): 0 a 50 pontos."
+      ],
+      "recommendedStructure": "Introdução com delimitação temática e tese + Desenvolvimento 1 com argumento de autoridade + Desenvolvimento 2 com análise de causa/efeito + Conclusão sintetizadora.",
+      "tacticalTips": [
+        "Demonstre compreensão sobre o papel estratégico da Amazônia Azul e da soberania nacional quando o tema for afim.",
+        "Respeite as margens rigidamente: ultrapassar ou recuar margem é penalizado com rigor.",
+        "Jamais ultrapasse o limite de 30 linhas nem escreva menos de 20 linhas."
+      ],
+      "sampleTheme": "A importância da mentalidade marítima para o desenvolvimento econômico e a segurança do Brasil."
+    },
+    {
+      "id": "board_efomm",
+      "name": "EFOMM (Escola de Formação de Oficiais da Marinha Mercante)",
+      "category": "militar",
+      "slug": "efomm",
+      "characteristics": "Concurso do Centro de Instrução Almirante Graça Aranha (CIAGA) e Centro de Instrução Almirante Braz de Aguiar (CIABA). Redação eliminatória (mínimo de 50 pontos) de 20 a 30 linhas.",
+      "scoringCriteria": [
+        "Estrutura do Texto e Articulação de Parágrafos: 0 a 30 pontos.",
+        "Desenvolvimento dos Argumentos e Informatividade: 0 a 40 pontos.",
+        "Norma-Padrão da Língua Portuguesa: 0 a 30 pontos."
+      ],
+      "recommendedStructure": "Introdução com 2 núcleos argumentativos + D1 focado no primeiro aspecto + D2 focado no segundo aspecto + Conclusão com perspectiva de futuro.",
+      "tacticalTips": [
+        "A EFOMM costuma trazer temas que conectam sustentabilidade, relações internacionais, comércio exterior e tecnologia.",
+        "Cuidado redobrado com a translineação correta de palavras nas margens.",
+        "Mantenha períodos médios (2 a 3 linhas por período) para evitar truncamento sintático."
+      ],
+      "sampleTheme": "O comércio marítimo internacional e a sustentabilidade dos oceanos: desafios do século XXI."
+    }
+  ],
+  "textGuides": [
+    {
+      "id": "guide_tema",
+      "title": "Como interpretar o tema sem tangenciar",
+      "summary": "Aprenda a dissecar a frase-tema em palavras-chave e delimitadores conceituais para garantir nota máxima em adequação temática.",
+      "keyPoints": [
+        "Destaque o Núcleo Temático (o assunto geral) e os Recortes Específicos (o aspecto exato a ser debatido).",
+        "Identifique a palavra de comando da banca (\"desafios\", \"impactos\", \"medidas\", \"papel\").",
+        "Nunca confunda o tema geral (ex: trânsito) com o recorte proposto (ex: fadiga humana e tecnologia de fiscalização)."
+      ],
+      "practicalExample": "Se o tema for \"Desafios da integração tecnológica no policiamento de fronteiras\", você DEVE falar sobre integração (1), tecnologia (2) e fronteiras (3). Se falar apenas de armas ou presídios, ocorrerá fuga parcial.",
+      "checklist": [
+        "Sublinhei as palavras-chave da frase-tema?",
+        "Minha introdução contém todas as palavras essenciais do tema?",
+        "Os meus dois desenvolvimentos respondem diretamente ao recorte temático?"
+      ]
+    },
+    {
+      "id": "guide_introducao",
+      "title": "Como fazer uma Introdução Tática e Matadora",
+      "summary": "A introdução é a certidão de nascimento do seu texto. Deve ter entre 5 e 7 linhas com 3 partes bem delimitadas.",
+      "keyPoints": [
+        "Frase 1 (Tópico Frasal / Contextualização): Apresentação do tema com repertório ou fato histórico/legal.",
+        "Frase 2 (Tese Central): Posição inequívoca e assertiva do candidato sobre o problema.",
+        "Frase 3 (Mapeamento dos Argumentos): Apresentação sintética dos dois pontos (D1 e D2) que serão provados adiante."
+      ],
+      "practicalExample": "\"Promulgada com o escopo de assegurar os direitos fundamentais, a Constituição de 1988 preconiza a segurança pública como dever do Estado. Todavia, a vulnerabilidade das fronteiras nacionais desafia esse preceito. Nesse cenário, urge combater a escassez de efetivo tático e intensificar o investimento em inteligência cibernética.\"",
+      "checklist": [
+        "Tem entre 5 e 7 linhas?",
+        "Contém repertório legitimado de abertura?",
+        "Apresenta com clareza o que será discutido no D1 e no D2?"
+      ]
+    },
+    {
+      "id": "guide_argumentos",
+      "title": "Desenvolvimento dos Argumentos com Técnica Tática",
+      "summary": "Estruture parágrafos de desenvolvimento à prova de contestações dos avaliadores utilizando a fórmula Tópico Frasal + Fundamentação + Análise Crítica.",
+      "keyPoints": [
+        "Tópico Frasal (1 linha): afirmação categórica do parágrafo ligada ao que foi prometido na introdução.",
+        "Fundamentação / Repertório (2-3 linhas): leis, dados, filósofos, sociólogos ou história que sustentam sua afirmação.",
+        "Análise Crítica e Fechamento (2 linhas): interpretação própria ligando a prova à realidade e ao tema."
+      ],
+      "practicalExample": "\"Em primeiro plano, cabe salientar que a defasagem operacional nas regiões fronteiriças potencializa o narcotráfico. Consoante o jurista Luigi Ferrajoli, a efetividade das leis depende da capacidade institucional do Estado em fazer valer suas prerrogativas. Dessa forma, sem uma logística integrada entre as forças de segurança, o policiamento torna-se inócuo diante da sofisticação bélica das facções.\"",
+      "checklist": [
+        "Iniciei com conectivo interparágrafo (\"Em primeiro plano\", \"Nesse prisma\")?",
+        "Incluí uma fundamentação externa com fonte explícita?",
+        "Fechei o parágrafo mostrando a consequência direta para o problema?"
+      ]
+    },
+    {
+      "id": "guide_conclusao",
+      "title": "Como construir a Conclusão: Bancas Civis vs Bancas Militares",
+      "summary": "Diferenças cruciais entre a intervenção detalhada para carreiras civis e a conclusão reflexiva sintética para carreiras militares.",
+      "keyPoints": [
+        "Concursos Civis / Cebraspe / Vunesp: Soluções práticas, apontando quem fará (Agente), o que fará (Ação), como fará (Meio/Modo) e para que fará (Finalidade).",
+        "Concursos Militares / EsPCEx / ESA: Retomada da tese com reafirmação valorativa, sem necessidade de proposta de intervenção nos moldes do ENEM."
+      ],
+      "practicalExample": "\"Infere-se, portanto, que a soberania estatal nas rodovias exige ações coordenadas. Cabe ao Ministério da Justiça, em parceria com a Polícia Rodoviária Federal, expandir o sistema de videomonitoramento com inteligência artificial, mediante alocação de fundos de segurança pública, a fim de mitigar o contrabando e salvaguardar a sociedade.\"",
+      "checklist": [
+        "Iniciei com conjunção conclusiva (\"Infere-se, portanto,\", \"Depreende-se, desse modo,\")?",
+        "Evitei termos vulgares como \"conclui-se que\" ou \"para finalizar\"?",
+        "Retomei o tema e a tese de maneira madura?"
+      ]
+    },
+    {
+      "id": "guide_coesao",
+      "title": "Coesão, Coerência e Conectivos Táticos Indispensáveis",
+      "summary": "O repertório de operadores argumentativos que diferenciam uma redação mediana de uma redação nota 10.",
+      "keyPoints": [
+        "Adição: Ademais, Outrossim, Além disso, Vale ainda acrescentar que.",
+        "Oposição / Concessão: Não obstante, Embora, Conquanto, Em contrapartida, Todavia.",
+        "Causa e Consequência: Haja vista que, Por conseguinte, Em decorrência de, Dessa forma.",
+        "Conclusão: Destarte, Portanto, Infere-se, Por todos esses aspectos."
+      ],
+      "practicalExample": "Em vez de usar \"Mas\" ou \"Porém\", use \"Em contrapartida\" ou \"Não obstante\". Em vez de \"Também\", utilize \"Ademais\" ou \"Outrossim\".",
+      "checklist": [
+        "Todos os parágrafos iniciam com conectivos interparágrafos?",
+        "Usei pronomes anafóricos para evitar repetições viciosas de palavras?",
+        "Não há períodos iniciados por gerúndio solto?"
+      ]
+    },
+    {
+      "id": "guide_checklist_final",
+      "title": "Checklist Tático Final de 5 Minutos",
+      "summary": "O ritual estratégico antes de passar a redação a limpo na folha definitiva da banca examinadora.",
+      "keyPoints": [
+        "1. Verificação de Crases: toda palavra feminina que recebeu crase admite troca por \"ao\" no masculino?",
+        "2. Concordância do verbo Haver: não flexionou o verbo haver no plural quando tinha sentido de existir?",
+        "3. Vírgulas proibidas: garantiu que não há vírgula separando sujeito e predicado ou verbo e seu objeto?",
+        "4. Translineação: a separação silábica no fim da linha tem traço lateral ou inferior limpo, sem invadir a margem direita?",
+        "5. Parágrafos: todos os 4 parágrafos têm recuo inicial idêntico de cerca de 2 centímetros?"
+      ],
+      "practicalExample": "Reserve sempre 10 a 15 minutos finais exclusivamente para esta checagem com olhos de avaliador.",
+      "checklist": [
+        "Revisei as 4 armadilhas clássicas da banca?",
+        "Verifiquei se preenchi o número mínimo e máximo de linhas exigidas?",
+        "A folha definitiva está sem marcas pessoais e com legibilidade perfeita?"
+      ]
+    }
+  ],
+  "tacticalMissions": [
+    {
+      "number": 1,
+      "title": "MISSÃO 01",
+      "subtitle": "Entender o Tema",
+      "objective": "Decodificar o comando da banca examinadora e blindar o texto contra tangenciamento ou fuga temática.",
+      "executionSteps": [
+        "Leia a proposta e circule as palavras-chave obrigatórias.",
+        "Identifique a palavra-âncora e o problema central.",
+        "Faça uma tempestade de ideias (brainstorming tático) em 3 minutos na folha de rascunho.",
+        "Defina em uma frase o que você defenderá."
+      ],
+      "modelTemplate": "Tema: [Núcleo Temático] sob o prisma de [Recorte da Banca]. Problema Central: Por que isso é um obstáculo para o Brasil hoje?",
+      "goldenRule": "Nunca comece a escrever antes de ter a pergunta-problema formulada no rascunho."
+    },
+    {
+      "number": 2,
+      "title": "MISSÃO 02",
+      "subtitle": "Construir a Tese",
+      "objective": "Formular uma tese firme, objetiva e indubitável para apresentar na primeira frase da introdução.",
+      "executionSteps": [
+        "Escolha um posicionamento claro (favorável, desfavorável ou ponderado crítico).",
+        "Associe a tese a dois pilares argumentativos (Argumento 1 e Argumento 2).",
+        "Garanta que a tese responda diretamente ao problema do tema."
+      ],
+      "modelTemplate": "\"É imperativo reconhecer que [Problema Central] perpetua-se tanto pela [Causa A / Argumento 1] quanto pela [Causa B / Argumento 2].\"",
+      "goldenRule": "A tese que não divide opiniões não é tese; é mero fato óbvio."
+    },
+    {
+      "number": 3,
+      "title": "MISSÃO 03",
+      "subtitle": "Organizar os Argumentos",
+      "objective": "Planejar o esqueleto do texto antes de redigir qualquer linha definitiva.",
+      "executionSteps": [
+        "Parágrafo 2 (D1): Reserve para a causa estrutural ou o aspecto estatal/normativo.",
+        "Parágrafo 3 (D2): Reserve para o impacto social, a repercussão prática ou a consequência operacional.",
+        "Selecione 1 repertório de autoridade legítimo para cada parágrafo (CF/88, autoridade doutrinária, dados consolidados)."
+      ],
+      "modelTemplate": "Esqueleto: Intro (Tese + Arg1 + Arg2) -> D1 (Tópico Frasal 1 + Prova Constitucional + Fechamento) -> D2 (Tópico Frasal 2 + Exemplo Prático + Fechamento).",
+      "goldenRule": "Um argumento sem comprovação documental ou teórica vira mera opinião pessoal do candidato."
+    },
+    {
+      "number": 4,
+      "title": "MISSÃO 04",
+      "subtitle": "Desenvolver os Parágrafos",
+      "objective": "Escrever desenvolvimentos densos com conectivos ricos e períodos coordenados e subordinados bem pontuados.",
+      "executionSteps": [
+        "Abra com um conectivo interparágrafo forte.",
+        "Apresente o Tópico Frasal curto e contundente.",
+        "Insira a fundamentação teórica conectada à realidade prática.",
+        "Feche com reflexão crítica, evitando pontas soltas."
+      ],
+      "modelTemplate": "\"[Conectivo Interparágrafo], é fulcral constatar que [Tópico Frasal]. Segundo [Pensador/Lei/Dado], [Citação/Referência contextualizada]. Desse modo, [Análise crítica mostrando a consequência].\"",
+      "goldenRule": "Nenhum parágrafo deve ter apenas uma frase do início ao fim. Use sempre 3 a 4 períodos por parágrafo."
+    },
+    {
+      "number": 5,
+      "title": "MISSÃO 05",
+      "subtitle": "Construir a Conclusão",
+      "objective": "Arrematar o texto com autoridade intelectual e coerência plena com os desenvolvimentos apresentados.",
+      "executionSteps": [
+        "Inicie com operador argumentativo conclusivo.",
+        "Faça uma paráfrase concisa da tese defendida.",
+        "Apresente as medidas aplicáveis (para bancas civis) ou a reflexão prospectiva (para bancas militares)."
+      ],
+      "modelTemplate": "\"Depreende-se, portanto, a urgência de medidas mitigadoras para [Problema]. Cabe ao [Órgão Competente], por intermédio de [Ação Concreta], viabilizar [Meio/Modo], a fim de garantir [Finalidade Constitucional].\"",
+      "goldenRule": "Nunca adicione um argumento inédito na conclusão. A conclusão serve para fechar o que foi aberto."
+    },
+    {
+      "number": 6,
+      "title": "MISSÃO 06",
+      "subtitle": "Revisar o Texto",
+      "objective": "Caçar e exterminar erros gramaticais e de translineação com o Checklist Tático.",
+      "executionSteps": [
+        "Faça a leitura reversa por períodos (do último parágrafo para o primeiro).",
+        "Confira os verbos impessoais (haver, fazer) e a concordância dos verbos transitivos com a partícula \"se\".",
+        "Passe a limpo com traço firme, sem rasuras grosseiras e respeitando os limites das margens."
+      ],
+      "modelTemplate": "Se errar uma palavra na folha definitiva, passe apenas um traço simples sobre ela e reescreva ao lado: \"~~escreveu-se~~ redigiu-se\". Nunca use parênteses nem borre com tinta.",
+      "goldenRule": "A nota da redação é o divisor de águas entre a lista de aprovados e a convocação para o Curso de Formação."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "prop_tatica_01",
+      "title": "A Atuação Integrada das Forças de Segurança Pública no Combate às Facções Criminosas",
+      "theme": "O papel da inteligência policial e da cooperação interinstitucional no enfrentamento ao crime organizado no Brasil.",
+      "instructions": "Elabore um texto dissertativo-argumentativo em norma-padrão da Língua Portuguesa, contendo entre 20 e 30 linhas. Apresente posicionamento crítico embasado na Constituição Federal de 1988 e em dados doutrinários de segurança pública.",
+      "deadline": "2026-11-30T23:59:59.000Z",
+      "status": "ativa",
+      "createdBy": "user_prof_gabriel",
+      "createdAt": "2026-03-01T08:00:00.000Z",
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    {
+      "id": "prop_1791507638190_432d",
+      "title": "Proposta Teste Rubrica Incompleta",
+      "theme": "Segurança e Tecnologia",
+      "instructions": "Dissertação sobre o tema.",
+      "status": "ativa",
+      "createdBy": "user_prof_gabriel",
+      "createdAt": "2026-10-09T01:00:38.190Z",
+      "updatedAt": "2026-10-09T01:00:38.193Z"
+    },
+    {
+      "id": "prop_1791507696302_y3wu",
+      "title": "Proposta Teste Rubrica Incompleta",
+      "theme": "Segurança e Tecnologia",
+      "instructions": "Dissertação sobre o tema.",
+      "status": "ativa",
+      "createdBy": "user_prof_gabriel",
+      "createdAt": "2026-10-09T01:01:36.302Z",
+      "updatedAt": "2026-10-09T01:01:36.307Z"
+    },
+    {
+      "id": "prop_1791566190647_g3mw",
+      "title": "Proposta Teste Rubrica Incompleta",
+      "theme": "Segurança e Tecnologia",
+      "instructions": "Dissertação sobre o tema.",
+      "status": "ativa",
+      "createdBy": "user_prof_gabriel",
+      "createdAt": "2026-10-09T17:16:30.647Z",
+      "updatedAt": "2026-10-09T17:16:30.658Z"
+    }
+  ],
+  "proposalCriteria": [
+    {
+      "id": "crit_01_tema",
+      "proposalId": "prop_tatica_01",
+      "name": "Critério 1: Adequação Temática e Tipologia Textual",
+      "description": "Compreensão da proposta, não tangenciamento do tema e domínio da estrutura dissertativo-argumentativa com tese explícita.",
+      "maxPoints": 2.5,
+      "orderIndex": 1
+    },
+    {
+      "id": "crit_02_coesao",
+      "proposalId": "prop_tatica_01",
+      "name": "Critério 2: Coesão Interparágrafos e Intraparágrafos",
+      "description": "Emprego diversificado e adequado de conectivos lógicos, pronomes anafóricos e concatenação de períodos.",
+      "maxPoints": 2.5,
+      "orderIndex": 2
+    },
+    {
+      "id": "crit_03_argumentacao",
+      "proposalId": "prop_tatica_01",
+      "name": "Critério 3: Consistência Argumentativa e Repertório",
+      "description": "Fundamentação com fatos, dados, legislação (CF/88) ou pensamento de autoridade, evitando senso comum.",
+      "maxPoints": 2.5,
+      "orderIndex": 3
+    },
+    {
+      "id": "crit_04_gramatica",
+      "proposalId": "prop_tatica_01",
+      "name": "Critério 4: Norma Culta e Correção Gramatical",
+      "description": "Domínio da concordância verbal/nominal, regência, crase, pontuação e precisão vocabular sem marcas de oralidade.",
+      "maxPoints": 2.5,
+      "orderIndex": 4
+    },
+    {
+      "id": "crit_1791507638191_vb78",
+      "proposalId": "prop_1791507638190_432d",
+      "name": "Critério Único",
+      "maxPoints": 2.5,
+      "orderIndex": 1,
+      "createdAt": "2026-10-09T01:00:38.191Z",
+      "updatedAt": "2026-10-09T01:00:38.191Z"
+    },
+    {
+      "id": "crit_1791507638192_f1mv",
+      "proposalId": "prop_1791507638190_432d",
+      "name": "Critério 2",
+      "maxPoints": 2.5,
+      "orderIndex": 2,
+      "createdAt": "2026-10-09T01:00:38.192Z",
+      "updatedAt": "2026-10-09T01:00:38.192Z"
+    },
+    {
+      "id": "crit_1791507638192_fx0n",
+      "proposalId": "prop_1791507638190_432d",
+      "name": "Critério 3",
+      "maxPoints": 2.5,
+      "orderIndex": 3,
+      "createdAt": "2026-10-09T01:00:38.192Z",
+      "updatedAt": "2026-10-09T01:00:38.192Z"
+    },
+    {
+      "id": "crit_1791507638192_8cmi",
+      "proposalId": "prop_1791507638190_432d",
+      "name": "Critério 4",
+      "maxPoints": 2.5,
+      "orderIndex": 4,
+      "createdAt": "2026-10-09T01:00:38.192Z",
+      "updatedAt": "2026-10-09T01:00:38.192Z"
+    },
+    {
+      "id": "crit_1791507696303_uzpd",
+      "proposalId": "prop_1791507696302_y3wu",
+      "name": "Critério Único",
+      "maxPoints": 2.5,
+      "orderIndex": 1,
+      "createdAt": "2026-10-09T01:01:36.303Z",
+      "updatedAt": "2026-10-09T01:01:36.303Z"
+    },
+    {
+      "id": "crit_1791507696304_piza",
+      "proposalId": "prop_1791507696302_y3wu",
+      "name": "Critério 2",
+      "maxPoints": 2.5,
+      "orderIndex": 2,
+      "createdAt": "2026-10-09T01:01:36.304Z",
+      "updatedAt": "2026-10-09T01:01:36.304Z"
+    },
+    {
+      "id": "crit_1791507696305_7k8n",
+      "proposalId": "prop_1791507696302_y3wu",
+      "name": "Critério 3",
+      "maxPoints": 2.5,
+      "orderIndex": 3,
+      "createdAt": "2026-10-09T01:01:36.305Z",
+      "updatedAt": "2026-10-09T01:01:36.305Z"
+    },
+    {
+      "id": "crit_1791507696306_4tj2",
+      "proposalId": "prop_1791507696302_y3wu",
+      "name": "Critério 4",
+      "maxPoints": 2.5,
+      "orderIndex": 4,
+      "createdAt": "2026-10-09T01:01:36.306Z",
+      "updatedAt": "2026-10-09T01:01:36.306Z"
+    },
+    {
+      "id": "crit_1791566190649_l5je",
+      "proposalId": "prop_1791566190647_g3mw",
+      "name": "Critério Único",
+      "maxPoints": 2.5,
+      "orderIndex": 1,
+      "createdAt": "2026-10-09T17:16:30.649Z",
+      "updatedAt": "2026-10-09T17:16:30.649Z"
+    },
+    {
+      "id": "crit_1791566190650_r1zr",
+      "proposalId": "prop_1791566190647_g3mw",
+      "name": "Critério 2",
+      "maxPoints": 2.5,
+      "orderIndex": 2,
+      "createdAt": "2026-10-09T17:16:30.650Z",
+      "updatedAt": "2026-10-09T17:16:30.650Z"
+    },
+    {
+      "id": "crit_1791566190656_2g0v",
+      "proposalId": "prop_1791566190647_g3mw",
+      "name": "Critério 3",
+      "maxPoints": 2.5,
+      "orderIndex": 3,
+      "createdAt": "2026-10-09T17:16:30.656Z",
+      "updatedAt": "2026-10-09T17:16:30.656Z"
+    },
+    {
+      "id": "crit_1791566190657_hq22",
+      "proposalId": "prop_1791566190647_g3mw",
+      "name": "Critério 4",
+      "maxPoints": 2.5,
+      "orderIndex": 4,
+      "createdAt": "2026-10-09T17:16:30.657Z",
+      "updatedAt": "2026-10-09T17:16:30.657Z"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "corr_1791507638197_ocel",
+      "essayId": "essay_1791507638195_gssj",
+      "teacherId": "user_prof_gabriel",
+      "teacherName": "Prof. Gabriel Figueiredo",
+      "generalFeedback": "Segunda versão revisada pelo Professor Gabriel.",
+      "finalGrade": 9.6,
+      "status": "finalizada",
+      "criteriaScores": [
+        {
+          "id": "sc_1791507638198_6tmq",
+          "correctionId": "corr_1791507638197_ocel",
+          "criterionId": "crit_1791507638191_vb78",
+          "criterionName": "Critério Único",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T01:00:38.198Z",
+          "updatedAt": "2026-10-09T01:00:38.198Z"
+        },
+        {
+          "id": "sc_1791507638198_2gcd",
+          "correctionId": "corr_1791507638197_ocel",
+          "criterionId": "crit_1791507638192_f1mv",
+          "criterionName": "Critério 2",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T01:00:38.198Z",
+          "updatedAt": "2026-10-09T01:00:38.198Z"
+        },
+        {
+          "id": "sc_1791507638198_sdh5",
+          "correctionId": "corr_1791507638197_ocel",
+          "criterionId": "crit_1791507638192_fx0n",
+          "criterionName": "Critério 3",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T01:00:38.198Z",
+          "updatedAt": "2026-10-09T01:00:38.198Z"
+        },
+        {
+          "id": "sc_1791507638198_d086",
+          "correctionId": "corr_1791507638197_ocel",
+          "criterionId": "crit_1791507638192_8cmi",
+          "criterionName": "Critério 4",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T01:00:38.198Z",
+          "updatedAt": "2026-10-09T01:00:38.198Z"
+        }
+      ],
+      "correctedAt": "2026-10-09T01:00:38.198Z",
+      "createdAt": "2026-10-09T01:00:38.197Z",
+      "updatedAt": "2026-10-09T01:00:38.198Z"
+    },
+    {
+      "id": "corr_1791507696309_322q",
+      "essayId": "essay_1791507696308_3mqp",
+      "teacherId": "user_prof_gabriel",
+      "teacherName": "Prof. Gabriel Figueiredo",
+      "generalFeedback": "Segunda versão revisada pelo Professor Gabriel.",
+      "finalGrade": 9.6,
+      "status": "finalizada",
+      "criteriaScores": [
+        {
+          "id": "sc_1791507696310_49y0",
+          "correctionId": "corr_1791507696309_322q",
+          "criterionId": "crit_1791507696303_uzpd",
+          "criterionName": "Critério Único",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T01:01:36.310Z",
+          "updatedAt": "2026-10-09T01:01:36.310Z"
+        },
+        {
+          "id": "sc_1791507696310_hghz",
+          "correctionId": "corr_1791507696309_322q",
+          "criterionId": "crit_1791507696304_piza",
+          "criterionName": "Critério 2",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T01:01:36.310Z",
+          "updatedAt": "2026-10-09T01:01:36.310Z"
+        },
+        {
+          "id": "sc_1791507696310_tovv",
+          "correctionId": "corr_1791507696309_322q",
+          "criterionId": "crit_1791507696305_7k8n",
+          "criterionName": "Critério 3",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T01:01:36.310Z",
+          "updatedAt": "2026-10-09T01:01:36.310Z"
+        },
+        {
+          "id": "sc_1791507696310_971s",
+          "correctionId": "corr_1791507696309_322q",
+          "criterionId": "crit_1791507696306_4tj2",
+          "criterionName": "Critério 4",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T01:01:36.310Z",
+          "updatedAt": "2026-10-09T01:01:36.310Z"
+        }
+      ],
+      "correctedAt": "2026-10-09T01:01:36.310Z",
+      "createdAt": "2026-10-09T01:01:36.309Z",
+      "updatedAt": "2026-10-09T01:01:36.310Z"
+    },
+    {
+      "id": "corr_1791566190661_uesm",
+      "essayId": "essay_1791566190659_9dfy",
+      "teacherId": "user_prof_gabriel",
+      "teacherName": "Prof. Gabriel Figueiredo",
+      "generalFeedback": "Segunda versão revisada pelo Professor Gabriel.",
+      "finalGrade": 9.6,
+      "status": "finalizada",
+      "criteriaScores": [
+        {
+          "id": "sc_1791566190662_9zfl",
+          "correctionId": "corr_1791566190661_uesm",
+          "criterionId": "crit_1791566190649_l5je",
+          "criterionName": "Critério Único",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T17:16:30.662Z",
+          "updatedAt": "2026-10-09T17:16:30.662Z"
+        },
+        {
+          "id": "sc_1791566190662_qbv0",
+          "correctionId": "corr_1791566190661_uesm",
+          "criterionId": "crit_1791566190650_r1zr",
+          "criterionName": "Critério 2",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T17:16:30.662Z",
+          "updatedAt": "2026-10-09T17:16:30.662Z"
+        },
+        {
+          "id": "sc_1791566190662_7859",
+          "correctionId": "corr_1791566190661_uesm",
+          "criterionId": "crit_1791566190656_2g0v",
+          "criterionName": "Critério 3",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T17:16:30.662Z",
+          "updatedAt": "2026-10-09T17:16:30.662Z"
+        },
+        {
+          "id": "sc_1791566190662_mqai",
+          "correctionId": "corr_1791566190661_uesm",
+          "criterionId": "crit_1791566190657_hq22",
+          "criterionName": "Critério 4",
+          "maxPoints": 2.5,
+          "score": 2.4,
+          "comments": "Ajuste após revisão técnica.",
+          "createdAt": "2026-10-09T17:16:30.662Z",
+          "updatedAt": "2026-10-09T17:16:30.662Z"
+        }
+      ],
+      "correctedAt": "2026-10-09T17:16:30.662Z",
+      "createdAt": "2026-10-09T17:16:30.661Z",
+      "updatedAt": "2026-10-09T17:16:30.662Z"
+    }
+  ],
+  "correctionVersions": [
+    {
+      "id": "ver_1791507638198_sed5",
+      "essayId": "essay_1791507638195_gssj",
+      "correctionId": "corr_1791507638197_ocel",
+      "teacherId": "user_prof_gabriel",
+      "versionNumber": 1,
+      "generalFeedback": "Primeira versão de correção finalizada.",
+      "finalGrade": 9,
+      "criteriaSnapshot": [
+        {
+          "criterion_id": "crit_1791507638191_vb78",
+          "criterion_name": "Critério Único",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        },
+        {
+          "criterion_id": "crit_1791507638192_f1mv",
+          "criterion_name": "Critério 2",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        },
+        {
+          "criterion_id": "crit_1791507638192_fx0n",
+          "criterion_name": "Critério 3",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        },
+        {
+          "criterion_id": "crit_1791507638192_8cmi",
+          "criterion_name": "Critério 4",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        }
+      ],
+      "archivedAt": "2026-10-09T01:00:38.198Z"
+    },
+    {
+      "id": "ver_1791507696310_4mxd",
+      "essayId": "essay_1791507696308_3mqp",
+      "correctionId": "corr_1791507696309_322q",
+      "teacherId": "user_prof_gabriel",
+      "versionNumber": 1,
+      "generalFeedback": "Primeira versão de correção finalizada.",
+      "finalGrade": 9,
+      "criteriaSnapshot": [
+        {
+          "criterion_id": "crit_1791507696303_uzpd",
+          "criterion_name": "Critério Único",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        },
+        {
+          "criterion_id": "crit_1791507696304_piza",
+          "criterion_name": "Critério 2",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        },
+        {
+          "criterion_id": "crit_1791507696305_7k8n",
+          "criterion_name": "Critério 3",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        },
+        {
+          "criterion_id": "crit_1791507696306_4tj2",
+          "criterion_name": "Critério 4",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        }
+      ],
+      "archivedAt": "2026-10-09T01:01:36.310Z"
+    },
+    {
+      "id": "ver_1791566190662_gkwk",
+      "essayId": "essay_1791566190659_9dfy",
+      "correctionId": "corr_1791566190661_uesm",
+      "teacherId": "user_prof_gabriel",
+      "versionNumber": 1,
+      "generalFeedback": "Primeira versão de correção finalizada.",
+      "finalGrade": 9,
+      "criteriaSnapshot": [
+        {
+          "criterion_id": "crit_1791566190649_l5je",
+          "criterion_name": "Critério Único",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        },
+        {
+          "criterion_id": "crit_1791566190650_r1zr",
+          "criterion_name": "Critério 2",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        },
+        {
+          "criterion_id": "crit_1791566190656_2g0v",
+          "criterion_name": "Critério 3",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        },
+        {
+          "criterion_id": "crit_1791566190657_hq22",
+          "criterion_name": "Critério 4",
+          "max_points": 2.5,
+          "score": 2.25,
+          "comments": "Bom desempenho."
+        }
+      ],
+      "archivedAt": "2026-10-09T17:16:30.662Z"
+    }
+  ]
+}

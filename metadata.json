@@ -1,0 +1,6 @@
+{
+  "name": "Português Tático",
+  "description": "Plataforma de Português e Redação para Concursos Públicos do Professor Gabriel Figueiredo com envio de redações, correções detalhadas, banco de questões e acompanhamento de desempenho.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,33 @@
+{
+  "executedAt": "2026-10-13T15:53:02.581Z",
+  "status": "SUCCESS",
+  "tablesVerified": [
+    "profiles",
+    "proposals",
+    "proposal_criteria",
+    "essays",
+    "corrections",
+    "correction_criteria_scores",
+    "correction_versions",
+    "exam_boards",
+    "text_guides",
+    "tactical_method",
+    "weekly_missions",
+    "student_stats"
+  ],
+  "securityControlsVerified": [
+    "Esquema privado app_private",
+    "Função de autorização app_private.is_teacher",
+    "search_path restrito em is_teacher",
+    "Trigger de proteção de perfis",
+    "Validação de soma de rubrica (10,00 pts)",
+    "Imutabilidade da rubrica pós submissão",
+    "Transação segura save_correction_transaction",
+    "Aprovação de contas approve_student_account"
+  ],
+  "migrationFiles": [
+    "20261008000001_initial_schema.sql",
+    "20261008000002_seed_initial_data.sql"
+  ],
+  "supabaseConfigured": true
+}
