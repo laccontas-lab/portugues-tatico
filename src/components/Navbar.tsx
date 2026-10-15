@@ -36,6 +36,8 @@ interface NavbarProps {
   onOpenSubmitEssay?: () => void;
   essays?: Essay[];
   onOpenEssayDetails?: (essayId: string) => void;
+  viewingAsStudent?: boolean;
+  onToggleStudentView?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({ 
@@ -43,7 +45,9 @@ export const Navbar: React.FC<NavbarProps> = ({
   onSelectTab, 
   onOpenSubmitEssay,
   essays = [],
-  onOpenEssayDetails
+  onOpenEssayDetails,
+  viewingAsStudent = false,
+  onToggleStudentView
 }) => {
   const { user, logout, changePassword } = useAuth();
   const { theme, toggleTheme } = useTheme();
@@ -113,7 +117,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   if (!user) return null;
 
-  const isTeacher = user.role === 'professor';
+  const isTeacher = user.role === 'professor' && !viewingAsStudent;
 
   // Get student's corrected essays
   const studentCorrections = !isTeacher
@@ -193,7 +197,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span className="text-sm sm:text-base font-bold tracking-tight text-slate-900 dark:text-slate-100 flex items-center gap-1.5">
                 PORTUGUÊS TÁTICO
                 <span className="hidden sm:inline-flex text-[10px] font-semibold tracking-wider text-amber-800 dark:text-amber-300 uppercase bg-amber-100/70 dark:bg-amber-950/60 px-1.5 py-0.5 rounded border border-amber-300 dark:border-amber-700">
-                  {isTeacher ? 'Professor' : 'Aluno'}
+                  {viewingAsStudent ? 'Visão do Aluno' : (user.role === 'professor' ? 'Professor' : 'Aluno')}
                 </span>
               </span>
               <p className="text-[11px] text-slate-500 dark:text-slate-400 hidden sm:block">
@@ -260,6 +264,24 @@ export const Navbar: React.FC<NavbarProps> = ({
               <InstagramIcon className="w-3.5 h-3.5" />
             </a>
           </div>
+
+          {/* Botão Alternar Visão do Aluno (Professor) */}
+          {user.role === 'professor' && onToggleStudentView && (
+            <button
+              type="button"
+              onClick={onToggleStudentView}
+              className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer shadow-2xs border ${
+                viewingAsStudent
+                  ? 'bg-amber-500 hover:bg-amber-400 text-slate-950 border-amber-600 font-extrabold shadow-sm'
+                  : 'bg-amber-500/10 hover:bg-amber-500/20 text-amber-800 dark:text-amber-300 border-amber-300 dark:border-amber-700'
+              }`}
+              title={viewingAsStudent ? "Voltar ao Modo Professor" : "Visualizar a plataforma exatamente como o aluno enxerga"}
+            >
+              {viewingAsStudent ? <Shield className="w-3.5 h-3.5 text-slate-950" /> : <Eye className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />}
+              <span className="hidden sm:inline">{viewingAsStudent ? 'Voltar ao Professor' : 'Ver como Aluno'}</span>
+              <span className="sm:hidden">{viewingAsStudent ? 'Professor' : 'Aluno'}</span>
+            </button>
+          )}
 
           {/* Quick Teacher Credentials Button */}
           {isTeacher && (

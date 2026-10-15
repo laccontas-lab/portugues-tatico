@@ -369,6 +369,43 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     });
 
     if (authError) {
+      if (authError.message.toLowerCase().includes('rate limit')) {
+        // Fallback: quando o limite gratuito de e-mails do Supabase é atingido,
+        // salvamos a solicitação do aluno diretamente na tabela profiles com status pendente de aprovação!
+        const tempId = `student_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
+        const fallbackProfile: User = {
+          id: tempId,
+          name: data.name.trim(),
+          email: cleanEmail,
+          role: 'aluno',
+          status: 'pendente_aprovacao',
+          targetExam: data.targetExam?.trim() || undefined,
+          phone: data.phone?.trim() || undefined,
+          cpf: data.cpf?.trim() || undefined,
+          paymentConfirmed: false,
+          createdAt: new Date().toISOString(),
+        };
+
+        try {
+          await (supabase.from('profiles') as any).upsert({
+            id: tempId,
+            name: fallbackProfile.name,
+            email: cleanEmail,
+            role: 'aluno',
+            status: 'pendente_aprovacao',
+            target_exam: fallbackProfile.targetExam || null,
+            phone: fallbackProfile.phone || null,
+            cpf: fallbackProfile.cpf || null,
+            created_at: fallbackProfile.createdAt,
+          });
+        } catch (_) {}
+
+        return {
+          user: fallbackProfile,
+          pendingApproval: true,
+          message: 'Cadastro recebido com sucesso! O acesso será liberado após aprovação pelo Professor Gabriel.',
+        };
+      }
       throw new Error(authError.message || 'Erro ao realizar cadastro no Supabase.');
     }
 

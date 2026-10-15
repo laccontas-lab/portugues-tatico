@@ -24,7 +24,9 @@ import {
   CheckCircle2, 
   AlertCircle, 
   Lock,
-  ArrowRight
+  ArrowRight,
+  Eye,
+  Shield
 } from 'lucide-react';
 
 // Teacher views
@@ -105,7 +107,46 @@ function MainApp() {
   const [firstAccessError, setFirstAccessError] = useState('');
   const [firstAccessSuccess, setFirstAccessSuccess] = useState('');
 
+  const [viewingAsStudent, setViewingAsStudent] = useState(false);
   const isTeacher = user?.role === 'professor';
+  const isEffectiveTeacher = isTeacher && !viewingAsStudent;
+
+  const effectiveStudentUser: User = user ? (viewingAsStudent ? {
+    ...user,
+    name: user.name || 'Professor Gabriel (Visão do Aluno)',
+    role: 'aluno',
+    targetExam: user.targetExam || 'Polícia Rodoviária Federal (PRF)'
+  } : user) : {
+    id: 'student_preview',
+    name: 'Aluno',
+    email: '',
+    role: 'aluno',
+    status: 'ativo',
+    paymentConfirmed: true,
+    createdAt: new Date().toISOString()
+  };
+
+  const previewStudentStats: StudentStats = (viewingAsStudent && studentStats.essaysSubmitted === 0) ? {
+    essaysSubmitted: 4,
+    essaysCorrected: 3,
+    averageGrade: 8.8,
+    highestGrade: 9.6,
+    lowestGrade: 7.8,
+    questionsAnswered: 24,
+    questionsCorrect: 21,
+    accuracyRate: 87.5,
+    subjectBreakdown: [],
+    criticalWeaknesses: [],
+    frequentAttentionPoints: [
+      { criterion: 'Pontuação em Orações Subordinadas', count: 2 },
+      { criterion: 'Paralelismo Sintático', count: 1 }
+    ],
+    gradeHistory: [
+      { essayId: '1', title: 'O Fator Humano e a Fadiga Rodoviária', grade: 9.6, date: '10/09/2026' },
+      { essayId: '2', title: 'A Segurança Pública no Estado Democrático', grade: 8.5, date: '18/09/2026' },
+      { essayId: '3', title: 'Crise Hídrica e Sustentabilidade', grade: 8.3, date: '25/09/2026' }
+    ]
+  } : studentStats;
 
   useEffect(() => {
     if (user && user.role === 'professor' && user.mustChangePassword) {
@@ -281,15 +322,48 @@ function MainApp() {
           setCurrentTab(tab);
           setEssayFilterStatus('Todas');
         }}
-        onOpenSubmitEssay={!isTeacher ? () => setShowSubmitModal(true) : undefined}
+        onOpenSubmitEssay={!isEffectiveTeacher ? () => setShowSubmitModal(true) : undefined}
         essays={essays}
         onOpenEssayDetails={handleOpenEssayDetails}
+        viewingAsStudent={viewingAsStudent}
+        onToggleStudentView={() => {
+          setViewingAsStudent(prev => !prev);
+          setCurrentTab('overview');
+        }}
       />
+
+      {/* Banner Superior Modo de Pré-visualização do Aluno */}
+      {viewingAsStudent && (
+        <aside 
+          aria-label="Barra de modo aluno ativo" 
+          className="bg-gradient-to-r from-amber-500 via-amber-600 to-amber-500 text-slate-950 px-3 sm:px-6 py-2 flex flex-wrap items-center justify-between gap-2 text-xs font-bold shadow-md sticky top-16 z-30 border-b border-amber-600"
+        >
+          <div className="flex items-center gap-2">
+            <span className="p-1 rounded-md bg-slate-950 text-amber-400">
+              <Eye className="w-4 h-4" />
+            </span>
+            <span>
+              MODO ALUNO ATIVO: Você está navegando e experimentando a plataforma exatamente como um estudante.
+            </span>
+          </div>
+          <button
+            type="button"
+            onClick={() => {
+              setViewingAsStudent(false);
+              setCurrentTab('overview');
+            }}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-950 hover:bg-slate-900 text-amber-300 hover:text-amber-200 text-xs font-extrabold transition-all cursor-pointer shadow-sm ml-auto"
+          >
+            <Shield className="w-3.5 h-3.5" />
+            <span>Voltar ao Painel do Professor</span>
+          </button>
+        </aside>
+      )}
 
       {/* Main Content Area */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-8">
         {/* PROFESSOR VIEWS */}
-        {isTeacher ? (
+        {isEffectiveTeacher ? (
           <>
             {currentTab === 'overview' && (
               <TeacherOverview
@@ -350,8 +424,8 @@ function MainApp() {
           <>
             {currentTab === 'overview' && (
               <StudentOverview
-                user={user}
-                stats={studentStats}
+                user={effectiveStudentUser}
+                stats={previewStudentStats}
                 recentEssays={essays}
                 weeklyMission={weeklyMissionData}
                 onOpenSubmitEssay={() => setShowSubmitModal(true)}
@@ -383,10 +457,10 @@ function MainApp() {
 
             {currentTab === 'evolution' && (
               <StudentEvolution
-                stats={studentStats}
+                stats={previewStudentStats}
                 onNavigateToEssays={() => setCurrentTab('my-essays')}
-                studentName={user.name}
-                targetExam={user.targetExam}
+                studentName={effectiveStudentUser.name}
+                targetExam={effectiveStudentUser.targetExam}
               />
             )}
 
